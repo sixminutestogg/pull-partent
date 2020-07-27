@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>product-model</module>
+        <module>product-service</module>
     </modules>
 
 
@@ -66,6 +67,12 @@
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
                 <scope>test</scope>
+            </dependency>
+            <!-- lombok依赖 -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
