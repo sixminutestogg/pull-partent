@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ideaWorkspace.iml" filepath="$PROJECT_DIR$/.idea/ideaWorkspace.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-partent/product-model/product-model.iml" filepath="$PROJECT_DIR$/project-partent/product-model/product-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-partent/product-service/product-service.iml" filepath="$PROJECT_DIR$/project-partent/product-service/product-service.iml" />
     </modules>
   </component>
 </project>

@@ -10,6 +10,7 @@
     <modules>
         <module>product-model</module>
         <module>product-service</module>
+        <module>product-web</module>
     </modules>
 
 

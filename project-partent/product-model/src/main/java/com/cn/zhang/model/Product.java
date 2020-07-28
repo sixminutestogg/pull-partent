@@ -1,7 +1,10 @@
 package com.cn.zhang.model;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
+@Data
 public class Product implements Serializable {
 
 
