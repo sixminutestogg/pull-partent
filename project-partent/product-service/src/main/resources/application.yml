@@ -23,3 +23,14 @@ spring:
       max-total: 10
       max-wait-millis: 150
 
+
+eureka:
+  client:
+    registerWithEureka: true  #服务注册开关
+    fetchRegistry: true        #服务发现开关
+    serviceUrl:
+      #default-zone: http://localhost:8761/eureka
+      defaultZone: http://eureka8761.com:8761/eureka/,http://eureka8762.com:8762/eureka/
+  instance:
+    instanceId: ${spring.application.name}:${server.port}    #指定实例名称，就不会显示主机名称
+    prefer-ip-address: true   #访问路径可以显示ip地址

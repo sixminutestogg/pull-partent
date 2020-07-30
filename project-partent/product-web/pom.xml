@@ -25,6 +25,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--在消费者端使用rinbbon 实现负载均衡 - 添加eureka会自动引入rinbbon的依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

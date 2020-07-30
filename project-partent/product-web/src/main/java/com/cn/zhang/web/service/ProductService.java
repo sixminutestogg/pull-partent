@@ -17,6 +17,6 @@ public class ProductService {
 
 
     public List<Product> list() {
-        return  restTemplate.getForObject(Contains.PRODUCT_SERVICE+"/list",List.class);
+        return  restTemplate.getForObject(Contains.PRODUCT_SERVICE+"/product/list",List.class);
     }
 }

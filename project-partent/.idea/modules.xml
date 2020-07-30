@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/product-eureka/product-eureka.iml" filepath="$PROJECT_DIR$/product-eureka/product-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-eureka-backup/product-eureka-backup.iml" filepath="$PROJECT_DIR$/product-eureka-backup/product-eureka-backup.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-model/product-model.iml" filepath="$PROJECT_DIR$/product-model/product-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-service-sell/product-service-sell.iml" filepath="$PROJECT_DIR$/product-service-sell/product-service-sell.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-web/product-web.iml" filepath="$PROJECT_DIR$/product-web/product-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-partent.iml" filepath="$PROJECT_DIR$/project-partent.iml" />
     </modules>

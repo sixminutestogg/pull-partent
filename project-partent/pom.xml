@@ -11,6 +11,9 @@
         <module>product-model</module>
         <module>product-service</module>
         <module>product-web</module>
+        <module>product-eureka</module>
+        <module>product-eureka-backup</module>
+        <module>product-service-sell</module>
     </modules>
 
 
