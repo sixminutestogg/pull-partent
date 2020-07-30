@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="product-service-sell" />
         <module name="product-service" />
+        <module name="product-web-feign" />
         <module name="product-eureka-backup" />
         <module name="product-web" />
         <module name="product-eureka" />
@@ -22,6 +23,7 @@
       <module name="product-service" target="1.8" />
       <module name="product-service-sell" target="1.8" />
       <module name="product-web" target="1.8" />
+      <module name="product-web-feign" target="1.8" />
       <module name="project-partent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -33,6 +35,7 @@
       <module name="product-service" options="-parameters" />
       <module name="product-service-sell" options="-parameters" />
       <module name="product-web" options="-parameters" />
+      <module name="product-web-feign" options="-parameters" />
     </option>
   </component>
 </project>

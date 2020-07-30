@@ -1,0 +1,16 @@
+server:
+  port: 80
+
+
+eureka:
+  client:
+    registerWithEureka: false # 服务注册 false表示不将此服务注册到eureka中
+    fetchRegistry: true   #服务发现 ，true为从eureka中获取
+    serviceUrl:
+      defaultZone:  http://eureka8761.com:8761/eureka/,http://eureka8762.com:8762/eureka/
+
+
+#开启feign中的熔断
+feign:
+  hystrix:
+    enabled: true

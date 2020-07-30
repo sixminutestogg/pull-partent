@@ -32,5 +32,5 @@ eureka:
       #default-zone: http://localhost:8761/eureka
       defaultZone: http://eureka8761.com:8761/eureka/,http://eureka8762.com:8762/eureka/
   instance:
-    instanceId: ${spring.application.name}:${server.port}    #指定实例名称，就不会显示主机名称
+    instanceId: ${spring.application.name}:${server.port}-hystrix    #指定实例名称，就不会显示主机名称
     prefer-ip-address: true   #访问路径可以显示ip地址
