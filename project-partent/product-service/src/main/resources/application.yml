@@ -34,3 +34,10 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port}-hystrix    #指定实例名称，就不会显示主机名称
     prefer-ip-address: true   #访问路径可以显示ip地址
+
+#在被监控的服务上添加爆率端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

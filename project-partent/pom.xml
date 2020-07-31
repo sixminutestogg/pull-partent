@@ -15,6 +15,7 @@
         <module>product-eureka-backup</module>
         <module>product-service-sell</module>
         <module>product-web-feign</module>
+        <module>product-hystrix-dashboard</module>
     </modules>
 
 

@@ -36,7 +36,7 @@ public class ProductController {
     //当发发出现异常时调用
     public  List<Product> getFallBack(){
         List<Product> list = new ArrayList<>();
-        list.add(new Product(999L,"熔断","hystrix"));
+        list.add(new Product(8001L,"熔断","hystrix"));
         return  list;
     }
 
