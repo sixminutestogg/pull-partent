@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/product-service-sell/product-service-sell.iml" filepath="$PROJECT_DIR$/product-service-sell/product-service-sell.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-web/product-web.iml" filepath="$PROJECT_DIR$/product-web/product-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-web-feign/product-web-feign.iml" filepath="$PROJECT_DIR$/product-web-feign/product-web-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-zuul-gateway/product-zuul-gateway.iml" filepath="$PROJECT_DIR$/product-zuul-gateway/product-zuul-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-partent.iml" filepath="$PROJECT_DIR$/project-partent.iml" />
     </modules>
   </component>

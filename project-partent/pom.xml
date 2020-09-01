@@ -16,6 +16,7 @@
         <module>product-service-sell</module>
         <module>product-web-feign</module>
         <module>product-hystrix-dashboard</module>
+        <module>product-zuul-gateway</module>
     </modules>
 
 
