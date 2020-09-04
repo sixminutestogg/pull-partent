@@ -36,7 +36,7 @@ public class RabbitMqUtils {
     }
 
     /**
-     * @deprecated ：获取链接
+     * 获取链接
      *
      */
     public static Connection getConnection(){
@@ -51,10 +51,10 @@ public class RabbitMqUtils {
 
 
     /**
-     * @deprecated ：关闭链接
+     * 关闭链接
      *
      */
-    public static  void closeChancleAndConnec(Channel channel , Connection connection){
+    public static  void closeChancleAndConnection(Channel channel , Connection connection){
 
         try {
             if(channel!=null){

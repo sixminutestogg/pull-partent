@@ -36,7 +36,7 @@ public class Customer {
             //参数3：exclusive :是否独占队列  true:是，false:不是
             //参数4：autoDelte:是否在消费完后删除队列   true:是；false ： 不是
             //参数5：额外附加参数
-            channel.queueDeclare("hello",false,false,false,null);
+            channel.queueDeclare("hello",true,false,false,null);
 
             //消费消息
             //参数1：消息队列名

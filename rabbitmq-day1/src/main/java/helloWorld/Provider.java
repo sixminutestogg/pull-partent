@@ -52,7 +52,7 @@ public class Provider {
 
 //            channel.close();
 //            connection.close();
-            RabbitMqUtils.closeChancleAndConnec(channel,connection);
+            RabbitMqUtils.closeChancleAndConnection(channel,connection);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (Exception e) {
