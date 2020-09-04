@@ -16,6 +16,7 @@ public class ConfigClientController {
    private String applicationName;
 
 
+
    @Value("${server.port}")
    private String port;
 
