@@ -24,7 +24,7 @@ public class Provider {
             channel.queueDeclare("work",true,false,false,null);
 
             //发送消息
-            for (int i =0 ;i<=10 ; i++){
+            for (int i =1 ;i<=100 ; i++){
 
                 channel.basicPublish("","work", MessageProperties.PERSISTENT_TEXT_PLAIN,("第"+i+"次的 work queuen ! 的消息").getBytes());
             }
