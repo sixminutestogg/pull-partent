@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      name: product-config-eureka  #git 上的配置文件名称
+      profile: prod #访问的环境
+      label: master
+      uri: http://localhost:5001   #config 服务端配置中心地址，
+                                    #通过它获取product-config-applicatiion.yml中的信息

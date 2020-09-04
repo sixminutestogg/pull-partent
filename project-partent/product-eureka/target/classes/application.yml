@@ -13,3 +13,7 @@ eureka:
       defaultZone: http://eureka8762.com:8762/eureka/
   server:
     enable-self-preservation: false # 禁用自我保护机制
+
+spring:
+  application:
+    name: product-eureka

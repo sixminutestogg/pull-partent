@@ -64,5 +64,10 @@
         <groupId>com.alibaba</groupId>
         <artifactId>druid</artifactId>
     </dependency>
+        <!--springcloud config 依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
     </dependencies>
 </project>

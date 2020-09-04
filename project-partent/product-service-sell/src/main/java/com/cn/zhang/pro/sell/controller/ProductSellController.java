@@ -20,7 +20,7 @@ public class ProductSellController {
 
 
     @HystrixCommand(fallbackMethod = "getFallBack")
-    @RequestMapping("/list")
+    @RequestMapping(value = "/list")
     public List<Product> list(){
        return productSellService.list();
     }

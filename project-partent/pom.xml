@@ -17,6 +17,8 @@
         <module>product-web-feign</module>
         <module>product-hystrix-dashboard</module>
         <module>product-zuul-gateway</module>
+        <module>product-config</module>
+        <module>product-config-client</module>
     </modules>
 
 
