@@ -27,6 +27,7 @@ public class Provider {
             //发送消息
             channel.basicPublish("logs","",null,"fonout message type".getBytes());
 
+
             //关闭资源
             RabbitMqUtils.closeChancleAndConnection(channel,connection);
 
