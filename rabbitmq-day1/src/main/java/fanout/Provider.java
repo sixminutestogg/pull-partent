@@ -21,7 +21,7 @@ public class Provider {
             Channel channel = connection.createChannel();
 
             //将通道与交换机绑定
-            //参数1：交换机名称  参数2：交换机AMQP的消息模型  fonout :广播
+            //参数1：交换机名称  参数2：交换机AMQP的消息模型  fanout :广播类型
             channel.exchangeDeclare("logs","fanout");
 
             //发送消息
